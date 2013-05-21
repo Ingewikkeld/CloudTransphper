@@ -7,6 +7,9 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
+app/bootstrap.php.cache
+build/
+bin/
 
 # Configuration files
 app/config/parameters.ini

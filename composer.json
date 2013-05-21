@@ -1,0 +1,15 @@
+{
+    "name": "Ingewikkeld/cloudbased-filetransfer-example-app",
+    "type": "project",
+    "description": "CloudTransphper is a demo application for the cloudVPS object store",
+    "keywords": ["cloud", "object store", "file transfer", "application", "demo"],
+    "homepage": "https://github.com/Ingewikkeld/DemoFileSite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Koopmanschap",
+            "email": "stefan@ingewikkeld.net",
+            "homepage": "http://php.ingewikkeld.net/"
+        }
+    ]
+}

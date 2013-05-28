@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Transfer
  *
- * @ORM\Table()
+ * @ORM\Table(name="Table")
  * @ORM\Entity(repositoryClass="Ingewikkeld\CloudTransphperBundle\Entity\TransferRepository")
  */
 class Transfer

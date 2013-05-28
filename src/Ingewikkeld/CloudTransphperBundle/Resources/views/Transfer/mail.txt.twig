@@ -1,0 +1,9 @@
+Hello {{ transfer.recipientName }},
+
+{{ transfer.senderName }} just sent you a file! You can download the file by going to this URL:
+
+{{ url('download', { 'id': transfer.id, 'seed': seed, 'hash': hash }) }}
+
+Sincerely,
+
+CloudTransphper

@@ -63,6 +63,13 @@ class Transfer
      */
     private $created;
 
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->created = new \DateTime('now');
+    }
 
     /**
      * Get id
@@ -210,5 +217,32 @@ class Transfer
     public function getCreated()
     {
         return $this->created;
+    }
+
+    /**
+     * Calculate a hash for this object based on the seed and object id
+     *
+     * @param string $seed
+     * @return string
+     */
+    public function getHash($seed)
+    {
+        return md5($seed.$this->getId());
+    }
+
+    /**
+     * Validate if the specified hash is for this object + the specified seed
+     *
+     * @param string $hash
+     * @param string $seed
+     * @return bool
+     */
+    public function validateHash($hash, $seed)
+    {
+        if ($hash == $this->getHash($seed)) {
+            return true;
+        }
+
+        return false;
     }
 }

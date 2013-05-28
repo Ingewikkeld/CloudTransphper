@@ -1,0 +1,22 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     cloudtransphper
+    database_user:     cloudtransphper
+    database_password: secret
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisTokenIsNotSoSecretChangeIt
+
+    cloudvps_id_url:    https://identity.stack.cloudvps.com/v2.0
+    cloudvps_user:
+    cloudvps_password:
+    cloudvps_container:
+    cloudvps_project:
+

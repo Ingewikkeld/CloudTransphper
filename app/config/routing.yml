@@ -1,0 +1,5 @@
+ingewikkeld_cloud_transphper:
+    resource: "@IngewikkeldCloudTransphperBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

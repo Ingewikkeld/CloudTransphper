@@ -11,7 +11,7 @@ class TransferType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('file', 'file', array('label' => 'File to transfer', 'mapped' => false))
+            ->add('upload', 'file', array('label' => 'File to transfer', 'mapped' => false))
             ->add('senderName', null, array('label' => 'Your name'))
             ->add('senderEmail', null, array('label' => 'Your e-mail'))
             ->add('recipientName', null, array('label' => 'Recipient name'))

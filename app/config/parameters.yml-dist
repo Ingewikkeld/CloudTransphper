@@ -13,3 +13,10 @@ parameters:
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    cloudvps_id_url:    https://identity.stack.cloudvps.com/v2.0
+    cloudvps_user:
+    cloudvps_password:
+    cloudvps_container:
+    cloudvps_project:
+

@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Ingewikkeld\CloudTransphperBundle\IngewikkeldCloudTransphperBundle(),
+            new Ingewikkeld\HPCloudBundle\IngewikkeldHPCloudBundle(),
             new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
         );
 

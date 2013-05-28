@@ -8,6 +8,12 @@
         <h3 class="muted">CloudTransphper</h3>
     </div>
 
+    {% for flashMessage in app.session.flashbag.get('notice') %}
+        <div class="flash-notice">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
+
     <hr>
 
     <div class="jumbotron">
